@@ -1,0 +1,10 @@
+<div class="booking-list">
+  <div *ngFor="let booking of bookings" class="booking-card">
+    <h3>{{ booking.name }}</h3>
+    <p><strong>Instructor:</strong> {{ booking.teacher }}</p>
+    <p><strong>Plazas disponibles:</strong> {{ booking.slots }}</p>
+    <p><strong>Fecha:</strong> {{ booking.date | date: 'longDate' }}</p>
+    <p><strong>Descripción:</strong> {{ booking.description }}</p>
+    <button (click)="openModal(booking.id)" class="view-btn">Ver más</button>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+<app-header></app-header>
+<h1>Reservas disponibles</h1>
+
+<app-booking-list (bookingSelected)="onBookingSelected($event)"></app-booking-list>
+
+<app-booking-detail *ngIf="selectedBooking" [booking]="selectedBooking" (close)="closeModal()"></app-booking-detail>

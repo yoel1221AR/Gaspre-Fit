@@ -1,0 +1,13 @@
+<header class="header">
+  <div class="logo">
+    <h1>FitGaspre</h1>
+  </div>
+  <nav class="nav">
+    <ul class="menu" [ngClass]="{'active': isMenuOpen}">
+      <li><a href="#">Reservas</a></li>
+    </ul>
+  </nav>
+  <div class="menu-toggle" (click)="toggleMenu()">
+    <span>&#9776;</span>
+  </div>
+</header>
