@@ -1,27 +1,35 @@
-# GymBookingApp
+# Gaspre-Fit
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Gaspre-Fit es una aplicación orientada a la gestión y reserva de espacios en gimnasios, que permite a los usuarios planificar sus sesiones de entrenamiento, consultar la disponibilidad horaria y efectuar reservas de forma eficiente y segura.
 
-## Development server
+Tecnologías Utilizadas:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ # Frontend:
 
-## Code scaffolding
+Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+SCSS
 
-## Build
+# Instrucciones para la Configuración Inicial
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para comenzar a trabajar con el proyecto, por favor siga las instrucciones que se detallan a continuación:
 
-## Running unit tests
+1. Clonar el repositorio
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecute el siguiente comando para clonar el repositorio en su máquina local:
 
-## Running end-to-end tests
+git clone https://github.com/yoel1221AR/Gaspre-Fit.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Acceder al directorio del proyecto
+cd Gaspre-Fit
 
-## Further help
+3. Instalar las dependencias
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ejecute el siguiente comando para instalar las dependencias necesarias:
+
+npm install
+
+
+Ejecute el siguiente comando para acceder local:
+
+ng serve -o
