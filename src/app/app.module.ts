@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BookingListComponent } from './components/booking-list/booking-list.component';
 import { BookingDetailComponent } from './components/booking-detail/booking-detail.component';
 import { HeaderComponent } from './components/header/header.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './components/header/header.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
