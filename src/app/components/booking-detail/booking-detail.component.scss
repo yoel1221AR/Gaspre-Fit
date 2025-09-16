@@ -1,0 +1,125 @@
+
+$primary-color: #4CAF50;  
+$secondary-color: #ffffff;
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.ng-trigger {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 90%;
+  position: relative;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(5%, -50%);
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: $primary-color;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #e74c3c;  
+}
+
+.modal-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modal-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 250px;
+}
+
+.close-btn-alt {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn-alt:hover {
+  background-color: #2980b9;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+strong {
+  color: #2c3e50;}
+
+
+.reserve-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #27ae60; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-btn:hover {
+  background-color: #2ecc71; 
+}
+
+.reserved-message {
+  color: #27ae60;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}

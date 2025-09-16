@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+// Definir fuentes principales y secundarias
+$primary-font: 'Roboto', sans-serif;  // Puedes usar cualquier fuente que desees
+$secondary-font: 'Arial', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');  // Cargar fuente desde Google Fonts
+
+// Establecer la fuente para todo el proyecto
+body {
+  font-family: $primary-font;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.booking-detail-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.close-btn {
+  background-color: #f44336;
+  margin-top: 20px;
+}

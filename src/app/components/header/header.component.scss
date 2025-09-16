@@ -1,0 +1,74 @@
+$primary-color: #4CAF50;
+$secondary-color: #ffffff;
+$font-family: 'Arial', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: $secondary-color;
+  position: relative;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+}
+
+.nav .menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav .menu li {
+  margin-right: 20px;
+}
+
+.nav .menu li a {
+  text-decoration: none;
+  color: $secondary-color;
+  font-size: 1.2rem;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: $primary-color;
+  }
+
+  .nav .menu.active {
+    display: flex;
+  }
+
+  .nav .menu li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+}

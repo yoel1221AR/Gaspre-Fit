@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Yoga",
+    "teacher": "Laura",
+    "slots": 10,
+    "description": "Clase de yoga",
+    "date": "2025-09-15T00:00:00.000Z",
+    "imageUrl": "url-to-image"
+  },
+  {
+    "id": 2,
+    "name": "Crossfit",
+    "teacher": "Juan",
+    "slots": 8,
+    "description": "Clase de crossfit",
+    "date": "2025-09-15T00:00:00.000Z",
+    "imageUrl": "url-to-image"
+  },
+  {
+    "id": 3,
+    "name": "Spinning",
+    "teacher": "María",
+    "slots": 12,
+    "description": "Clase de spinning",
+    "date": "2025-09-15T00:00:00.000Z",
+    "imageUrl": "url-to-image"
+  }
+]
